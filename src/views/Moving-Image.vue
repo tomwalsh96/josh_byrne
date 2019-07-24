@@ -12,17 +12,17 @@ export default {
   data: () => ({
     height: 500,
     options: {},
-    playerReady: false,
+    playerReady: false
   }),
   methods: {
-    onReady() {
-        this.playerReady = true
+    onReady () {
+      this.playerReady = true
     },
     play () {
-        this.$refs.player.play()
+      this.$refs.player.play()
     },
     stop () {
-        this.$refs.player.stop()
+      this.$refs.player.stop()
     }
   }
 }

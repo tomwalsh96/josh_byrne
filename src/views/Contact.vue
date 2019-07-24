@@ -9,24 +9,24 @@
           <v-container>
             <v-layout>
               <v-flex xs6 >
-                <v-text-field 
-                  v-model="firstname" 
+                <v-text-field
+                  v-model="firstname"
                   label="First name"
                   solo
                   required
                 ></v-text-field>
               </v-flex>
               <v-flex xs6>
-                <v-text-field 
-                  v-model="lastname" 
+                <v-text-field
+                  v-model="lastname"
                   label="Last name"
                   solo
                   required
                 ></v-text-field>
               </v-flex>
               <v-flex xs12>
-                <v-text-field 
-                  v-model="email" 
+                <v-text-field
+                  v-model="email"
                   label="E-mail"
                   solo
                   required
@@ -37,8 +37,8 @@
           <v-container>
             <v-layout>
               <v-flex xs12>
-                <v-text-field 
-                  v-model="subject" 
+                <v-text-field
+                  v-model="subject"
                   label="Subject"
                   solo
                   required
@@ -49,9 +49,9 @@
           <v-container>
             <v-layout>
               <v-flex xs12>
-                <v-textarea 
-                  v-model="message" 
-                  label="Message" 
+                <v-textarea
+                  v-model="message"
+                  label="Message"
                   solo
                   required
                 ></v-textarea>
