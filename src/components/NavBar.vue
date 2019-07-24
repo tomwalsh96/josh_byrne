@@ -12,7 +12,6 @@
       <v-toolbar-items class="hidden-md-and-down">
         <v-btn flat router :to="'/music'">Music</v-btn>
         <v-btn flat router :to="'/event'">Event</v-btn>
-        <v-btn flat router :to="'/festival'">Festival</v-btn>
         <v-btn flat router :to="'/moving-image'">Moving Image</v-btn>
         <v-btn flat router :to="'/people'">People</v-btn>
         <v-btn flat router :to="'/place'">Place</v-btn>
@@ -32,9 +31,6 @@
         </v-list-tile>
         <v-list-tile router :to="'/event'">
           <v-list-tile-content>Event</v-list-tile-content>
-        </v-list-tile>
-        <v-list-tile router :to="'/festival'">
-          <v-list-tile-content>Festival</v-list-tile-content>
         </v-list-tile>
         <v-list-tile router :to="'/moving-image'">
           <v-list-tile-content>Moving Image</v-list-tile-content>

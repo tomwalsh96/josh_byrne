@@ -23,9 +23,19 @@ export default new Router({
       component: () => import('./views/Event.vue')
     },
     {
-      path: '/festival',
-      name: 'festival',
-      component: () => import('./views/Festival.vue')
+      path: '/event/vantastival-18',
+      name: 'vantastival-18',
+      component: () => import('./views/events/Vantastival-18.vue')
+    },
+    {
+      path: '/event/life-18',
+      name: 'life-18',
+      component: () => import('./views/events/Life-18.vue')
+    },
+    {
+      path: '/event/bodyandsoul-18',
+      name: 'bodyandsoul-18',
+      component: () => import('./views/events/BodyandSoul-18.vue')
     },
     {
       path: '/moving-image',

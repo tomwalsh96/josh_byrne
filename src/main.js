@@ -4,8 +4,11 @@ import App from './App.vue'
 import router from './router'
 import store from './store'
 import './registerServiceWorker'
+import vueVimeoPlayer from 'vue-vimeo-player'
 
 Vue.config.productionTip = false
+
+Vue.use(vueVimeoPlayer)
 
 new Vue({
   router,
