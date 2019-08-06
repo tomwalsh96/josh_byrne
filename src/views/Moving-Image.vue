@@ -4,7 +4,7 @@
       <vimeo-player ref="player" video-id="309738408" @ready="onReady"></vimeo-player>
       <vimeo-player ref="player" video-id="312725427" @ready="onReady"></vimeo-player>
     </v-layout>
-	</v-container>
+  </v-container>
 </template>
 <script>
 

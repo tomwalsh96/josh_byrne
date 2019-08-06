@@ -58,7 +58,7 @@
         ></v-img>
       </v-flex>
     </v-layout>
-	</v-container>
+  </v-container>
 </template>
 <script>
 export default {

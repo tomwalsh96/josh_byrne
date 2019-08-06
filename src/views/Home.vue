@@ -29,7 +29,7 @@
       <v-spacer></v-spacer>
       <v-spacer></v-spacer>
     </v-layout>
-	</v-container>
+  </v-container>
 </template>
 
 <script>
