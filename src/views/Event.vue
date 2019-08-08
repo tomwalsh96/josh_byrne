@@ -32,7 +32,7 @@
           <v-card-title>
             <div>
               <span class="headline">Life '18</span><br>
-              <span class="grey--text">-------------------</span>
+              <span class="grey--text">Belvedere House • County Westmeath, Ireland</span>
             </div>
           </v-card-title>
         </v-card>
@@ -62,7 +62,7 @@
     <v-layout row wrap>
 
       <v-flex xs12 sm6>
-        <v-card router :to="'/event/bodyandsoul-18'">
+        <v-card router :to="'/event/nightlife-18'">
           <v-img
             class="white--text"
             height="200px"
@@ -71,8 +71,8 @@
           </v-img>
           <v-card-title>
             <div>
-              <span class="headline">-------------------</span><br>
-              <span class="grey--text">-------------------</span>
+              <span class="headline">Nightlife '18</span><br>
+              <span class="grey--text">Toast • Dublin, Ireland</span>
             </div>
           </v-card-title>
         </v-card>

@@ -4,7 +4,7 @@
     <v-toolbar app height="100px">
       <v-spacer></v-spacer>
       <v-toolbar-title>
-        <v-btn large flat router :to="'/'"><h1 class="display-2 font-weight-bold">JOSH BYRNE</h1></v-btn>
+        <v-btn large flat router :to="'/'"><h1 class="display-2 font-weight-bold" router-link-active="false">JOSH BYRNE</h1></v-btn>
       </v-toolbar-title>
 
       <v-spacer></v-spacer>

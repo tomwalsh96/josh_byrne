@@ -38,6 +38,11 @@ export default new Router({
       component: () => import('./views/events/BodyandSoul-18.vue')
     },
     {
+      path: '/event/nightlife-18',
+      name: 'nightlife-18',
+      component: () => import('./views/events/Nightlife-18.vue')
+    },
+    {
       path: '/moving-image',
       name: 'moving-image',
       component: () => import('./views/Moving-Image.vue')
